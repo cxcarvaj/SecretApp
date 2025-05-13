@@ -6,17 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		FBB94FA32DCE254D00878DE2 /* SecretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		FB4C30152DD0F0F700E6E14A /* PersistenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30142DD0F0F700E6E14A /* PersistenceView.swift */; };
+		FB4C301A2DD0F13900E6E14A /* PersistenceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30192DD0F13900E6E14A /* PersistenceVM.swift */; };
+		FB4C301D2DD0FF7C00E6E14A /* CifradoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C301C2DD0FF7C00E6E14A /* CifradoView.swift */; };
+		FB4C301F2DD0FF8500E6E14A /* CifradoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C301E2DD0FF8500E6E14A /* CifradoVM.swift */; };
+		FB4C30212DD0FFA000E6E14A /* SecureKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30202DD0FFA000E6E14A /* SecureKeyManager.swift */; };
+		FB4C30242DD2384000E6E14A /* LocalAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30232DD2384000E6E14A /* LocalAuthenticationView.swift */; };
+		FB4C30262DD2385300E6E14A /* LocalAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30252DD2385300E6E14A /* LocalAuthVM.swift */; };
+		FB4C30292DD3916800E6E14A /* SecurePersistenceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C30282DD3916800E6E14A /* SecurePersistenceVM.swift */; };
+		FB4C302B2DD3917600E6E14A /* SecurePersistenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C302A2DD3917600E6E14A /* SecurePersistenceView.swift */; };
+		FB4C302D2DD39D1100E6E14A /* ClientsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C302C2DD39D1100E6E14A /* ClientsDB.swift */; };
+		FBB94FB52DCE257000878DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB94FB12DCE257000878DE2 /* Assets.xcassets */; };
+		FBB94FB62DCE257000878DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB94FB22DCE257000878DE2 /* ContentView.swift */; };
+		FBB94FB72DCE257000878DE2 /* SecretAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB94FB32DCE257000878DE2 /* SecretAppApp.swift */; };
+		FBB94FB92DCE25A600878DE2 /* SecKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB94FB82DCE25A500878DE2 /* SecKeyStore.swift */; };
+		FBB94FBB2DCE2A3E00878DE2 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB94FBA2DCE2A3E00878DE2 /* KeyChain.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FBB94FA52DCE254D00878DE2 /* SecretApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SecretApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		FB4C30142DD0F0F700E6E14A /* PersistenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceView.swift; sourceTree = "<group>"; };
+		FB4C30192DD0F13900E6E14A /* PersistenceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceVM.swift; sourceTree = "<group>"; };
+		FB4C301C2DD0FF7C00E6E14A /* CifradoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CifradoView.swift; sourceTree = "<group>"; };
+		FB4C301E2DD0FF8500E6E14A /* CifradoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CifradoVM.swift; sourceTree = "<group>"; };
+		FB4C30202DD0FFA000E6E14A /* SecureKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureKeyManager.swift; sourceTree = "<group>"; };
+		FB4C30232DD2384000E6E14A /* LocalAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationView.swift; sourceTree = "<group>"; };
+		FB4C30252DD2385300E6E14A /* LocalAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthVM.swift; sourceTree = "<group>"; };
+		FB4C30282DD3916800E6E14A /* SecurePersistenceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurePersistenceVM.swift; sourceTree = "<group>"; };
+		FB4C302A2DD3917600E6E14A /* SecurePersistenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurePersistenceView.swift; sourceTree = "<group>"; };
+		FB4C302C2DD39D1100E6E14A /* ClientsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsDB.swift; sourceTree = "<group>"; };
+		FBB94FA32DCE254D00878DE2 /* SecretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB94FB12DCE257000878DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB94FB22DCE257000878DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBB94FB32DCE257000878DE2 /* SecretAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretAppApp.swift; sourceTree = "<group>"; };
+		FBB94FB82DCE25A500878DE2 /* SecKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecKeyStore.swift; sourceTree = "<group>"; };
+		FBB94FBA2DCE2A3E00878DE2 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FBB94FA02DCE254D00878DE2 /* Frameworks */ = {
@@ -29,10 +54,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4C30162DD0F10D00E6E14A /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C30142DD0F0F700E6E14A /* PersistenceView.swift */,
+				FB4C30192DD0F13900E6E14A /* PersistenceVM.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FB4C301B2DD0FF6300E6E14A /* Cifrado */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C301C2DD0FF7C00E6E14A /* CifradoView.swift */,
+				FB4C301E2DD0FF8500E6E14A /* CifradoVM.swift */,
+			);
+			path = Cifrado;
+			sourceTree = "<group>";
+		};
+		FB4C30222DD2381500E6E14A /* LocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C30232DD2384000E6E14A /* LocalAuthenticationView.swift */,
+				FB4C30252DD2385300E6E14A /* LocalAuthVM.swift */,
+			);
+			path = LocalAuthentication;
+			sourceTree = "<group>";
+		};
+		FB4C30272DD3913F00E6E14A /* SecurePersistence */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C30282DD3916800E6E14A /* SecurePersistenceVM.swift */,
+				FB4C302A2DD3917600E6E14A /* SecurePersistenceView.swift */,
+				FB4C302C2DD39D1100E6E14A /* ClientsDB.swift */,
+			);
+			path = SecurePersistence;
+			sourceTree = "<group>";
+		};
 		FBB94F9A2DCE254C00878DE2 = {
 			isa = PBXGroup;
 			children = (
-				FBB94FA52DCE254D00878DE2 /* SecretApp */,
+				FBB94FB42DCE257000878DE2 /* SecretApp */,
 				FBB94FA42DCE254D00878DE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +105,23 @@
 				FBB94FA32DCE254D00878DE2 /* SecretApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB94FB42DCE257000878DE2 /* SecretApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBB94FB12DCE257000878DE2 /* Assets.xcassets */,
+				FBB94FB22DCE257000878DE2 /* ContentView.swift */,
+				FB4C30272DD3913F00E6E14A /* SecurePersistence */,
+				FB4C30222DD2381500E6E14A /* LocalAuthentication */,
+				FB4C301B2DD0FF6300E6E14A /* Cifrado */,
+				FB4C30162DD0F10D00E6E14A /* Persistence */,
+				FB4C30202DD0FFA000E6E14A /* SecureKeyManager.swift */,
+				FBB94FB82DCE25A500878DE2 /* SecKeyStore.swift */,
+				FBB94FBA2DCE2A3E00878DE2 /* KeyChain.swift */,
+				FBB94FB32DCE257000878DE2 /* SecretAppApp.swift */,
+			);
+			path = SecretApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +138,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				FBB94FA52DCE254D00878DE2 /* SecretApp */,
 			);
 			name = SecretApp;
 			packageProductDependencies = (
@@ -109,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB94FB52DCE257000878DE2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +196,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB94FB62DCE257000878DE2 /* ContentView.swift in Sources */,
+				FBB94FBB2DCE2A3E00878DE2 /* KeyChain.swift in Sources */,
+				FB4C301A2DD0F13900E6E14A /* PersistenceVM.swift in Sources */,
+				FB4C302B2DD3917600E6E14A /* SecurePersistenceView.swift in Sources */,
+				FB4C30292DD3916800E6E14A /* SecurePersistenceVM.swift in Sources */,
+				FBB94FB92DCE25A600878DE2 /* SecKeyStore.swift in Sources */,
+				FB4C30212DD0FFA000E6E14A /* SecureKeyManager.swift in Sources */,
+				FB4C30152DD0F0F700E6E14A /* PersistenceView.swift in Sources */,
+				FB4C302D2DD39D1100E6E14A /* ClientsDB.swift in Sources */,
+				FB4C301F2DD0FF8500E6E14A /* CifradoVM.swift in Sources */,
+				FBB94FB72DCE257000878DE2 /* SecretAppApp.swift in Sources */,
+				FB4C30242DD2384000E6E14A /* LocalAuthenticationView.swift in Sources */,
+				FB4C30262DD2385300E6E14A /* LocalAuthVM.swift in Sources */,
+				FB4C301D2DD0FF7C00E6E14A /* CifradoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +347,7 @@
 				DEVELOPMENT_TEAM = 7GRZBU3W5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "I will use your Face";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -269,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxcarvaj.SecretApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -284,6 +376,7 @@
 				DEVELOPMENT_TEAM = 7GRZBU3W5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "I will use your Face";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxcarvaj.SecretApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
